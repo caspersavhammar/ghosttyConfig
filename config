@@ -1,11 +1,12 @@
-font-family = "JetBrains Mono "
-font-family-bold = "JetBrains Mono Bold"
-font-family-italic = "JetBrains Mono Italic"
-font-family-bold-italic = "JetBrains Mono Bold italic"
+font-family = "JetBrainsMono Nerd font Mono"
+font-family-bold = "JetBrainsMono NFM Bold"
+font-family-italic = "JetBrainsMono NFM Medium Italic"
+font-family-bold-italic = "JetBrainsMono Bold italic"
+
 font-size = 13
 theme = Atom One Dark
 background = 1E1F20
-background-opacity = 1
+background-opacity = 0.95
 background-blur-radius = 20
 window-inherit-working-directory = true
 mouse-hide-while-typing = true
