@@ -1,8 +1,7 @@
-font-family = "JetBrainsMono Nerd font Mono"
-font-family-bold = "JetBrainsMono NFM Bold"
-font-family-italic = "JetBrainsMono NFM Medium Italic"
-font-family-bold-italic = "JetBrainsMono Bold italic"
-
+font-family = "JetBrains Mono"
+font-family-bold = "JetBrains Mono Bold"
+font-family-italic = "JetBrains Mono Italic"
+font-family-bold-italic = "JetBrains Mono Bold italic"
 font-size = 13
 theme = Atom One Dark
 background = 1E1F20
@@ -21,9 +20,10 @@ keybind = cmd+t=new_tab
 keybind = cmd+n=new_window
 keybind = opt+w=close_surface
 
-# custom-shader = shaders/cursor_blaze.glsl
-custom-shader = shaders/cursor_smear_fade.glsl
-# custom-shader = shaders/cursor_blaze_tapered.glsl
-# custom-shader = shaders/cursor_frozen.glsl
-
-# custom-shader = shaders/manga_slash.glsl
+custom-shader = shaders/cursor_sweep.glsl
+# custom-shader = shaders/cursor_tail.glsl
+# custom-shader = shaders/cursor_warp.glsl
+# custom-shader = shaders/rectangle_boom_cursor.glsl
+# custom-shader = shaders/ripple_cursor.glsl
+# custom-shader = shaders/ripple_rectangle_cursor.glsl
+# custom-shader = shaders/sonic_boom_cursor.glsl
