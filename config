@@ -3,24 +3,20 @@ font-family-bold = "JetBrainsMono NFM Bold"
 font-family-italic = "JetBrainsMono NFM Italic"
 font-family-bold-italic = "JetBrainsMono NFM Bold Italic"
 font-size = 13
+
 theme = Atom One Dark
 background = 1E1F20
 background-opacity = 0.95
-background-blur-radius = 20
+macos-titlebar-style = transparent
+
 window-inherit-working-directory = true
 mouse-hide-while-typing = true
-# macos-titlebar-style = 
 
 gtk-custom-css = tab-style.css
 
-window-padding-x = 1
-window-padding-y = 1
-window-padding-balance = true
-
-confirm-close-surface = false
-# keybind = cmd+t=new_tab
-# keybind = cmd+n=new_window
-# keybind = opt+w=close_surface
+keybind = cmd+t=new_tab
+keybind = cmd+n=new_window
+keybind = opt+w=close_surface
 
 custom-shader = shaders/cursor_sweep.glsl
 # custom-shader = shaders/cursor_tail.glsl
